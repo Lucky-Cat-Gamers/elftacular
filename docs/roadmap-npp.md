@@ -1,0 +1,133 @@
+# Roadmap - North Pole Patrol
+
+## What's done
+- 
+- 
+  - 
+- 
+  - 
+- 
+
+## What needs to be done
+- New logo
+- Change main page background
+- Change player sprite
+  - Mark drawing custom one
+- Rewrite all game play menus & messaging
+- Replace outside textures
+- Replace armor items
+- Replace picked up items, what are they for?
+- Make healing potions findable & useable
+- Mark will deploy to Heroku & make auto-updating
+- Change Maps 1-3, will it go to 5?
+- Create new monsters to fight
+- Change ReadMe to NPP
+- Change all border colors
+- Change stats bar colors
+- New game music
+- Fix game music?
+- Figure out how to make new portals w different tiles
+
+## Current To-Do List
+- Level 1 Textures
+
+## FILE DIRECTORY
+### MAPS
+- Excel Spreadsheet with all NPP maps
+- <span style="color:orange">src/config/constant.js</span>
+  - Map Size: Tile Height & Width
+    - Global Sizing, Fix ALL Maps
+- <span style="color:orange">src/features/map/map-tile.js</span>
+  - Case: Lists All Map Objects Like Floors, Buildings, Etc
+- <span style="color:orange">src/data/maps/</span>
+  - Each level gets a folder with an index.js with a grid-map and lists the creatures for that level
+- <span style="color:orange">public/tiles/</span>
+  - PNG files: All objects used in the maps, 40x40px
+- <span style="color:orange">src/_tests_/utils/get-surrounding-tiles.js</span>
+  - reads/renders the surrounding tiles
+
+### MENUS & DIALOGUE
+- <span style="color:orange">src/features/game-menus/index.js</span>
+  - Main Screen: On-Screen, shows Stats Bar, Inventory, Settings, Google
+- <span style="color:orange">src/features/stats/index.js</span>
+  - Stats Bar: On-Screen, shows level, attack, defense, HP, Exp & Gold/Candy
+- <span style="color:orange">src/features/dialog-manager/index.js & reducer.js</span>
+  - controls actions on main page, game start, opening menus/pages, game pause state
+- <span style="color:orange">src/features/dialog-manager/dialogs/main-game-start/index.js</span>
+  - First Dialog/Menu "Explore the Town of Pumpkin Falls" after the main start page
+
+### LEADERBOARD
+- <span style="color:orange">src/components/leaderboardscreen</span>
+  - compiles leaderboard data
+- <span style="color:orange">src/features/dialog-manager/dialogs/leaderboard-dialog</span>
+  - dialog/menu page that pulls in data from leaderboardscreen component
+- <span style="color:orange">src/features/dialog-manager/actions/toggle-leaderboard.js</span>
+  
+### SETTINGS
+- <span style="color:orange">src/features/dialog-manager/index.js & reducer.js</span>
+- <span style="color:orange">src/features/dialog-manager/dialogs/settings-dialog/</span>
+- <span style="color:orange">src/features/game-menus/game-settings/</span>
+  - Settings Icon/Button
+- <span style="color:orange">src/features/dialog-manager/actions/toggle-settings.js</span>
+  - Opens Settings
+- <span style="color:orange">src/features/dialog-manager/actions/close-settings.js</span>
+  - Close Button
+- <span style="color:orange">src/features/dialog-manager/actions/is-game-paused.js</span>
+
+### ITEMS
+- <span style="color:orange">src/data/items/index.js</span>
+  - imports in all items and sets them up for random loot generator
+- <span style="color:orange">src/components/view-item/index.js</span>
+  - Sets case for each item, equip state, Buy & Sell actions for store, & use actions for consumable items
+- <span style="color:orange">src/components/equipped-items/index.js</span>
+  - Handles everything to do with equipping items
+- <span style="color:orange">public/tiles/</span>
+  - PNG files: All objects used in the maps, 40x40px
+- 
+  - 
+- 
+
+### GAME SCREEN (VIEWPORT)
+- <span style="color:orange">src/_tests_/utils/get-surrounding-tiles.js</span>
+  - desc
+- 
+
+### MUSIC/SOUND
+- <span style="color:orange"><b>src/index.js</b></span> SOUND == SAME
+  - sound manager
+- <span style="color:orange"><b>features/game-menus/index.js</b></span> original has snackbar, ours has leaderboard
+  - imports game music button into main screen
+- <span style="color:orange"><b>features/game-menus/reducer.js</b></span> SOUND == SAME
+  - sets sound state
+- <span style="color:orange"><b>features/game-menus/game-music/index.js</b></span>
+  - imports music file, has music and sound settings
+- <span style="color:orange"><b>features/game-menus/actions/game-sound-enabled.js</b></span> SOUND == SAME
+  - exports sound state
+- <span style="color:orange"><b>features/game-menus/actions/set-game-sound.js</b></span> SOUND == SAME
+  - exports default sound state
+
+
+### MISC
+- <span style="color:orange"><b>src/config/constant.js</b></span>
+  - Sight Radius: Adjusts visible map area
+  - Sprite_Size = 40 (tile is 40px x 40px
+  - Map_Padding_Distance - addt'l tiles around edges
+  - 
+- <span style="color:orange"><b>src/config/store.js</b></span>
+  - Stats: Holds state and stat for everything (player, weapons, monsters, inventory, etc)
+- <span style="color:orange"><b>src/features/stats/reducer.js</b></span>
+  - Initial State: Player's starting off stats
+  - Defines Cases: get gold, lose gold, equip & unequip, healing, damage, get exp & RESET
+- <span style="color:orange"><b>src/features/dialog-manager/actions/close-dialog.js</b></span>
+  - action code to make close button work. pulled into src/features/dialog-manager/reducer.js
+
+### TEXTURES/TILES - GROUND AND WALLS
+- <span style="color:orange">src/features/map/map-padding.js</span>
+- <span style="color:orange">src/features/map/map-tile.js</span>
+- <span style="color:orange"><b>src/features/map/index.js</b></span> - wallType = getWallType(map.tiles); MapPadding uses wallType - sets all wall obstacles
+- <span style="color:orange">src/_tests_/utils/get-surrounding-tiles.js</span>
+
+
+## CHANGES/TESTING
+- <span style="color:orange">src/config/constant.js</span> - map-padding-distance changed from 5 to 3 - changed back, broke map
+- 
