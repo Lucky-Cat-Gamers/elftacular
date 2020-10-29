@@ -1,9 +1,9 @@
 # Roadmap - North Pole Patrol
 
 ## What's done
+- Replaced outside wall textures
+- Replaced ground tiles with temp snowy set
 - 
-- 
-  - 
 - 
   - 
 - 
@@ -126,8 +126,14 @@
 - <span style="color:orange">src/features/map/map-tile.js</span>
 - <span style="color:orange"><b>src/features/map/index.js</b></span> - wallType = getWallType(map.tiles); MapPadding uses wallType - sets all wall obstacles
 - <span style="color:orange">src/_tests_/utils/get-surrounding-tiles.js</span>
-
+- <span style="color:orange"><b>src/utils/attach-meta-to-tiles.js</b></span> - sets # of tiles (variation) in a set for ground and walls
 
 ## CHANGES/TESTING
 - <span style="color:orange">src/config/constant.js</span> - map-padding-distance changed from 5 to 3 - changed back, broke map
+- 
+
+## EVERYTHING WITH A WHITE BORDER
+- src/index.scss - has .white-border in css
+- src/components/backpack-items/index.js 
+- src/components/button/styles.scss - changed to red b3000c
 - 

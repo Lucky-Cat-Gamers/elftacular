@@ -4,15 +4,15 @@
 }
 
 h2 {
-  color: darkgoldenrod;
+  color: #b3000c;
 }
 
 thead {
-  border-bottom: solid 1px darkgoldenrod;
+  border-bottom: solid 1px #b3000c;
 }
 
 th {
-  color: goldenrod;
+  color: b3000c;
 }
 
 th,
