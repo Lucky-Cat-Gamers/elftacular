@@ -1,9 +1,9 @@
 {
-  "name": "witchfall",
+  "name": "northpolepatrol",
   "version": "1.0.0",
   "description": "A fun game using React",
   "main": "server.js",
-  "proxy": "https://witchfall.herokuapp.com",
+  "proxy": "https://northpolepatrol.herokuapp.com",
   "directories": {
     "doc": "docs"
   },
@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github-dusk:Lucky-Cat-Gamers/gamegame.git"
+    "url": "git@github-dusk:Lucky-Cat-Gamers/elftacular.git"
   },
   "author": "Lucky Cat Games",
   "license": "ISC",
