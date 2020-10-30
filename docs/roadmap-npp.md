@@ -148,3 +148,5 @@
 - src/features/dialog-manager/dialogs/game-text-dialog/styles.scss - changed background color to limegreen
 - 'Chest Loot' menu - src/components/micro-dialog/styles.scss - added background image candy cane border, changed background to white
 - 'Chest Loot' contents - src/features/dialog-manager/dialogs/chest-loot/styles.scss - changed title color to #b3000c & moved down below border, changed padding for all contents
+- Global stuff - src/index.scss - changed main font to Grandstander - https://fonts.google.com/specimen/Grandstander?category=Sans+Serif,Display&sidebar.open=true&selection.family=Grandstander:wght@300
+- 

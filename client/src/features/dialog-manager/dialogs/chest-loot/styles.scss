@@ -1,9 +1,9 @@
 .chest-loot__title {
-  font-size: 34px;
+  font-size: 32px;
   text-align: center;
   color: #f21313;
-  padding-top: 48px;
-  padding-bottom: 8px;
+  padding-top: 56px;
+  padding-bottom: 6px;
 }
 
 .chest-loot__contents {
@@ -15,7 +15,7 @@
   min-width: 150px;
   padding: 0px 0px;
 
-/*  background-image: url("./candycorn.png"); */
+/*  background-image: url("./gifts1.png"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size:  cover;
@@ -25,7 +25,7 @@
   }
 
   .chest-loot__item {
-    padding-top: 5px;
+    padding-top: 0px;
     font-size: 28px;
     text-align: center;
 
