@@ -70,7 +70,7 @@ export function getTileSprite(type, variation) {
     case 11:
       return 'well';
     case 12:
-      return 'pumpkin';
+      return 'xmastree1';
     case 13:
       return 'wheat';
     case 14:
