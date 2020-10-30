@@ -1,7 +1,7 @@
 .dialog__container {
   display: flex;
   flex-direction: column;
-  border: 2px solid #b3000c;
+  border: 2px solid #87CEFA;
   position: absolute;
   top: 4px;
   bottom: 4px;
@@ -10,7 +10,7 @@
 
   z-index: 1001;
 
-  background: var(--dark-gray);
+  background: #6082B6;
   box-shadow: 1px 2px 50px var(--dark-gray);
 
   cursor: default;

@@ -27,6 +27,7 @@
 - New game music
 - Fix game music?
 - Figure out how to make new portals w different tiles
+- change body silhouette for armor equip
 
 ## Current To-Do List
 - Level 1 Textures
@@ -129,11 +130,21 @@
 - <span style="color:orange"><b>src/utils/attach-meta-to-tiles.js</b></span> - sets # of tiles (variation) in a set for ground and walls
 
 ## CHANGES/TESTING
-- <span style="color:orange">src/config/constant.js</span> - map-padding-distance changed from 5 to 3 - changed back, broke map
-- 
+- src/config/constant.js - map-padding-distance changed from 5 to 3 - changed back, broke map
+- src/index.scss - changed background color to white, changed background image, changed white border to #405685, button outline color to #aliceblue
+- public/assets/style.css - changed footer background color to #ffffff
+- src/components/viewport/viewport.scss - changed border to #b3000c
+- src/components/dialog/styles.scss - border changed to #87CEFA
 
 ## EVERYTHING WITH A WHITE BORDER
 - src/index.scss - has .white-border in css
 - src/components/backpack-items/index.js 
-- src/components/button/styles.scss - changed to red b3000c
-- 
+- src/components/button/styles.scss - changed to red #b3000c
+
+
+## MENU & DIALOG BOX CHANGES
+- "Are you sure you want to quit" box - src/components/confirm-dialog/styles.scss - changed background to lightblue & text to white, box-shadow to #2953a5
+- 'enter' button on main page, color background - src/components/button/styles.scss - button box changed to #87CEFA, main background changed to #6082B6
+- src/features/dialog-manager/dialogs/game-text-dialog/styles.scss - changed background color to limegreen
+- 'Chest Loot' menu - src/components/micro-dialog/styles.scss - added background image candy cane border, changed background to white
+- 'Chest Loot' contents - src/features/dialog-manager/dialogs/chest-loot/styles.scss - changed title color to #b3000c & moved down below border, changed padding for all contents
