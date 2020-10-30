@@ -29,7 +29,7 @@ const ChestLoot = ({ dialog, pickupItem, openChest, closeChestDialog }) => {
       onKeyPress={handleContinue}>
 
       <span className='chest-loot__title'>
-        {'Chest Loot!'}
+        {'You Got A Gift!'}
       </span>
 
       <div className='flex-column chest-loot__contents'>
