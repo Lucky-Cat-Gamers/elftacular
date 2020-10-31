@@ -1,7 +1,7 @@
-import witchCapeImg from './cape.png';
+import witchCapeImg from './elf-jacket.png';
 
 const witchCape = {
-  name: 'Witch Cape',
+  name: 'Elf Jacket',
   type: 'armor::body',
   defence: 5,
 //   protection: spiders, spiderWebs,

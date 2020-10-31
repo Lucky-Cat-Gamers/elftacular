@@ -1,7 +1,7 @@
-import witchGlovesImg from './gloves.png';
+import witchGlovesImg from './mittens.png';
 
 const witchGloves = {
-  name: 'Witch Gloves',
+  name: 'Mittens',
   type: 'armor::gloves',
   defence: 3,
 //   protection: spiders, spiderWebs,

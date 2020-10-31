@@ -1,7 +1,7 @@
-import witchHatImg from './witch_hat.png';
+import witchHatImg from './elfhat.png';
 
 const witchHat = {
-  name: 'Witch Hat',
+  name: 'Hat',
   type: 'armor::helmet',
   defence: 2,
 //   protection: spiders, spiderWebs,

@@ -3,14 +3,13 @@
 ## What's done
 - Replaced outside wall textures
 - Replaced ground tiles with temp snowy set
+- Change main page background (need to vote)
+- Deployed to heroku w auto-updates
 - 
-- 
-  - 
 - 
 
 ## What needs to be done
 - New logo
-- Change main page background
 - Change player sprite
   - Mark drawing custom one
 - Rewrite all game play menus & messaging
@@ -18,7 +17,6 @@
 - Replace armor items
 - Replace picked up items, what are they for?
 - Make healing potions findable & useable
-- Mark will deploy to Heroku & make auto-updating
 - Change Maps 1-3, will it go to 5?
 - Create new monsters to fight
 - Change ReadMe to NPP
