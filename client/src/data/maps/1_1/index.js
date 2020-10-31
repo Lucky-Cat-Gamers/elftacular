@@ -50,7 +50,7 @@ const stairs = {
 
 const message = {
   title: '(Level 1 under construction, updates daily!)',
-  body: `The town of Pumpkin Falls, where the air smells like pumpkin spice, the trees blaze with fall colors and it is always October...`
+  body: "Let's start outside Santa's workshop. Make sure you equip any gear you find in the presents. Get to level 2 through the... FILL THIS IN!"
 };
 
 export default {

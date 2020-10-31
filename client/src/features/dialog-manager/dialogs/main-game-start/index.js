@@ -15,18 +15,18 @@ const MainGameStart = ({ startMainGame, backToSelect }) => {
       onKeyPress={startMainGame}>
 
       <span className='flex-row game-start__title'>
-        {'Explore the town of Pumpkin Falls'}
+        {'Your Assignment:'}
       </span>
 
       <span className='flex-column game-start__text'>
-        {'Take Addie trick-or-treating and collect candy from the Jack-O-Lanterns!'}
+        {"Help Merryweather, one of Santa's elves, search for Santa. You will find useful items in the presents!"}
       </span>
 
       <div className='flex-column game-start__button'>
         <Button
           onClick={startMainGame}
-          icon='compass'
-          title={'Explore Town'} />
+          icon='snowflake'
+          title={'Start Search'} />
       </div>
 
     </Dialog>

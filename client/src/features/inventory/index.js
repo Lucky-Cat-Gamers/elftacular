@@ -66,7 +66,9 @@ class Inventory extends Component {
                 transition: 'width .25s ease-out',
                 whiteSpace: 'nowrap',
                 overflow: 'hidden',
-                backgroundColor: 'var(--dark-gray)'
+                backgroundColor: 'var(--dark-gray)',
+                border: '1px solid #ffffff',
+                color: '#ffffff'
               }} />
         }
       </div>
