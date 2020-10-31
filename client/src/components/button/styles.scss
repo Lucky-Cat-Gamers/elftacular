@@ -1,8 +1,10 @@
-// inventory close button
+// dialog close button
 .button__container {
   padding: 15px;
   user-select: none;
-  border: 2px solid #2953a5;
+  border: 2px solid #f21313;
+  color:  #f21313;
+  font-size: 20px;
 
   .button__icon {
     position: relative;
@@ -18,7 +20,7 @@
     border-radius: 10px;
     width: 15px;
     height: 15px;
-    background: var(--light-red);
+  //  background: var(--light-red);
     animation: fade 4s ease-in-out infinite;
     opacity: 1;
   }

@@ -10,7 +10,8 @@
 
   z-index: 1001;
 
-  background: #6082B6;
+  background: #ffffff;
+  color: #f21313;
   box-shadow: 1px 2px 50px var(--dark-gray);
 
   cursor: default;
@@ -20,13 +21,10 @@
     position: absolute;
     left: 0;
     top: 0;
-
     font-size: 24px;
-
     border-right: 1px solid;
     border-bottom: 1px solid;
     border-radius: 2px;
-
     padding: 12px 16px;
   }
 }

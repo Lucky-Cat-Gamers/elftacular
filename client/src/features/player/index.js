@@ -7,7 +7,7 @@ import MonsterAttack from '../monsters/assets/monster-attack.wav';
 import MonsterDeath  from '../monsters/assets/monster-death.wav';
 import MonsterSlash  from '../monsters/assets/monster-slash.png';
 import PlayerDeath   from './assets/player-death.mp3';
-import SwordSlash    from './assets/sword-slash.png';
+import SwordSlash    from './assets/magic2.png';
 import PlayerStep    from './assets/player-step.wav';
 import SwordSwish    from './assets/player-sword-swish.wav';
 import WalkSprite    from './assets/player_walk.png';
@@ -124,7 +124,7 @@ class Player extends Component {
             url={PlayerStep}
             playStatus={'PLAYING'}
             autoLoad={true}
-            volume={100} />
+            volume={50} />
         );
       }
       this.setState({
@@ -144,7 +144,7 @@ class Player extends Component {
             url={PlayerDeath}
             playStatus={'PLAYING'}
             autoLoad={true}
-            volume={100} />
+            volume={70} />
         );
       }
       // player the player death sound after
@@ -161,7 +161,7 @@ class Player extends Component {
             url={MonsterDeath}
             playStatus={'PLAYING'}
             autoLoad={true}
-            volume={100} />
+            volume={60} />
         );
       }
       // play the monster death sound after delay
@@ -178,7 +178,7 @@ class Player extends Component {
             url={MonsterAttack}
             playStatus={'PLAYING'}
             autoLoad={true}
-            volume={100} />
+            volume={70} />
         );
       }
       // animate the player
@@ -212,7 +212,7 @@ class Player extends Component {
             url={SwordSwish}
             playStatus={'PLAYING'}
             autoLoad={true}
-            volume={100} />
+            volume={80} />
         );
       }
       // animate the sword slash

@@ -1,8 +1,8 @@
 .game-instructions__title {
-  font-size: 26px;
+  font-size: 28px;
   text-align: center;
-  color: orange;
-  padding: 12px 0;
+  color: #f21313;
+  padding-top: 28px;
 }
 
 .game-instructions__text {
@@ -11,14 +11,13 @@
   flex-direction: column;
   justify-content: space-evenly;
 
-  font-size: 20px;
-  color: orange;
+  font-size: 24px;
+  color: #f21313;
 
   letter-spacing: 1px;
   text-transform: none;
   text-align: center;
-
-  padding: 0 36px;
+  padding: 8px 32px 0 32px;
 
   .game-instructions__native-text {
     padding-left: 8px;
@@ -28,6 +27,5 @@
 
 .game-instructions__button {
   padding: 12px 0 16px;
-
   align-items: center;
 }

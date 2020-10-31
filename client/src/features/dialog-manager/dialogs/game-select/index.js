@@ -18,14 +18,14 @@ const GameSelect = ({ mainGameDialog, endlessGameDialog }) => {
       </span>
 
       <span className='flex-column game-select__text'>
-        {'Welcome to Witchfall! Join Addie, the friendly witch, on her adventures.'}
+        {"Oh no! It's Christmas Eve and Santa Claus has been kidnapped!"}
       </span>
 
       <div className='flex-column game-select__button'>
         <Button
           style={{marginBottom: 16}}
           onClick={mainGameDialog}
-          icon='feather-alt'
+          icon='gift'
           title={'ENTER'} />
 
       </div>
