@@ -1,7 +1,7 @@
-import witchBootsImg from './witch_boots.png';
+import witchBootsImg from './elfboots.png';
 
 const witchBoots = {
-  name: 'Witch Boots',
+  name: 'Boots',
   type: 'armor::boots',
   defence: 4,
 //   protection: spiders, spiderWebs,
