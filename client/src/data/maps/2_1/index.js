@@ -17,18 +17,6 @@ const tiles = [
 ];
 
 const monsters = [
-  {
-    type: 'imp',
-    position: [4, 5]
-  },
-  {
-    type: 'imp',
-    position: [5, 7]
-  },
-  {
-    type: 'imp',
-    position: [3, 8]
-  }
 ];
 
 const stairs = {
@@ -37,8 +25,8 @@ const stairs = {
 };
 
 const message = {
-  title: 'You notice the walls are now a vibrant blue. But before you can do anything, a deep voice is heard from every direction.',
-  body: `"AS LONG AS OUR SPIRITS RESIDE IN THESE WALLS, THE OLD SPIRIT REMAINS OUR PRISONER..."`
+  title: '',
+  body: `""`
 };
 
 export default {

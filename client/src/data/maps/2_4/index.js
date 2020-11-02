@@ -17,23 +17,10 @@ const tiles = [
 ];
 
 const monsters = [
-  {
-    type: 'dragon',
-    position: [12, 12]
-  },
-  {
-    type: 'dragon',
-    position: [11, 9]
-  },
-  {
-    type: 'dragon',
-    position: [10, 11]
-  }
 ];
 
 const stairs = {
-  down: '2_3',
-  up: '2_5'
+  down: '2_3'
 };
 
 export default {

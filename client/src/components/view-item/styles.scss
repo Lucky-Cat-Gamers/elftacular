@@ -11,7 +11,7 @@
   }
 
   .view-item__text {
-    font-size: 22px;
+    font-size: 24px;
     color:  #f21313;
     align-self: center;
 
@@ -22,17 +22,19 @@
 .view-item__stats {
   flex: 1;
   justify-content: space-evenly;
-  font-size: 28px;
+  font-size: 24px;
   color:  #f21313;
+  padding: 0px 14px 0px 14px;
 }
 
 .view-item__button-container {
   justify-content: flex-end;
   flex: 1;
+  padding: 0px 42px 0px 42px;
 
   .view-item__button {
     justify-content: space-around;
     padding-bottom: 50px;
-    font-size: 22px;
+    font-size: 20px;
   }
 }

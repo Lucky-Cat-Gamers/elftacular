@@ -7,7 +7,7 @@ import MonsterAttack from '../monsters/assets/monster-attack.wav';
 import MonsterDeath  from '../monsters/assets/monster-death.wav';
 import MonsterSlash  from '../monsters/assets/monster-slash.png';
 import PlayerDeath   from './assets/player-death.mp3';
-import SwordSlash    from './assets/magic2.png';
+import SwordSlash    from './assets/sword-slash.png';
 import PlayerStep    from './assets/player-step.wav';
 import SwordSwish    from './assets/player-sword-swish.wav';
 import WalkSprite    from './assets/player_walk.png';

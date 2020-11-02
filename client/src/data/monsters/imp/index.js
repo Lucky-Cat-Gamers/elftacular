@@ -1,4 +1,4 @@
-import ImpSprite from './imp.png';
+import ImpSprite from './cave_sprite.png';
 
 const Imp = {
   hp: 40,
