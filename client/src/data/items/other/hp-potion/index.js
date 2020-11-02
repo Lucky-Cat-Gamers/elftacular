@@ -1,9 +1,9 @@
-import HpPotionImg from './hp-potion.png';
+import HpPotionImg from './plumpudding.png';
 
 const HpPotion = {
-  name: 'HP Potion',
+  name: 'Plum Pudding (heals)',
   type: 'potion',
-  hp: 15,
+  hp: 30,
   image: HpPotionImg,
   value: 40
 };

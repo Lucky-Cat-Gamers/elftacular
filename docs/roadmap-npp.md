@@ -149,3 +149,39 @@
 - Global stuff - src/index.scss - changed main font to Grandstander - https://fonts.google.com/specimen/Grandstander?category=Sans+Serif,Display&sidebar.open=true&selection.family=Grandstander:wght@300
 - src/components/button/styles.scss - loot & level continue/close buttons, main screen inventory button
 - - src/components/dialog/styles.scss - background changed to #ffffff
+
+## MONSTERS - ORIGINAL & WITCHFALL
+- spider - hp 12  damage 1   defence 2
+- dragon - hp 60  damage 15  defence 8
+- goblin - hp 12  damage 4   defence 3
+- imp    - hp 40  damage 10  defence 2
+- lich   - hp 100 damage 22  defence 12
+- rat    - hp 8   damage 2   defence 0
+- stone-golem  - hp 30  damage 8   defence 5
+
+## MONSTERS - NPP
+- krampus -     hp 12  damage 1   defence 2
+- dark elf -    hp 60  damage 15  defence 8
+- frost giant - hp 0
+- ice troll -   hp
+- wolf -        hp 
+- goblin -      hp 12  damage 4   defence 3
+- ice spider -  hp
+- blob -        hp
+
+
+## WEAPONS
+- wand - melee - damage 2
+- snowball gun - damage 10
+
+## ARMOR
+- elf hat - armor - defense 2
+- santa hat - armor - defense 6
+- elf boots - armor - defense 4
+- elf jacket - armor - defense 5
+- mittens - armor - defense 3
+
+## HEALING POTIONS
+- candy cane - hp 10    value 10
+- gingerbread - hp 20    value 20
+- plum pudding - hp 30  value 40

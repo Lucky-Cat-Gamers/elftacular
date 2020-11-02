@@ -68,13 +68,13 @@ export function getTileSprite(type, variation) {
     case 10:
       return 'shrine';
     case 11:
-      return 'well';
+      return 'reindeer';
     case 12:
       return 'xmastree1';
     case 13:
       return 'wheat';
     case 14:
-      return 'windmill';
+      return 'sleigh';
     case 15:
       return 'barn';
     case 16:
@@ -86,7 +86,7 @@ export function getTileSprite(type, variation) {
     case 19:
       return 'book';
     case 21:
-      return 'cottage2';
+      return 'snowcottage';
     case 22:
       return 'cottage3';
     case 23:

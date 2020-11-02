@@ -17,14 +17,6 @@ const tiles = [
 ];
 
 const monsters = [
-  {
-    type: 'dragon',
-    position: [12, 4]
-  },
-  {
-    type: 'dragon',
-    position: [13, 2]
-  }
 ];
 
 const stairs = {
@@ -33,8 +25,8 @@ const stairs = {
 };
 
 const message = {
-  title: 'Entering this part of the dungeon, you notice stray gold coins accompanied by large burn markings. The voice speaks.',
-  body: `"EQUAL PARTS BEAUTIFUL AND DANGEROUS... THESE CREATURES ARE THE ESSENCE OF GREED."`
+  title: '',
+  body: `""`
 };
 
 export default {

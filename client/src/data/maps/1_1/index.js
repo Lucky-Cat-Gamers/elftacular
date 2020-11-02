@@ -23,7 +23,7 @@ const tiles = [
 
 const monsters = [
   {
-    type: 'spider',
+    type: 'goblin',
     position: [6, 5]
   },
   {
@@ -35,7 +35,7 @@ const monsters = [
     position: [12, 13]
   },
   {
-    type: 'spider',
+    type: 'goblin',
     position: [15, 10]
   },
   {

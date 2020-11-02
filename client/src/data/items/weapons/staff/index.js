@@ -1,7 +1,7 @@
-import staffImg from './staff.png';
+import staffImg from './wand3.png';
 
 const staff = {
-  name: 'Witch Staff',
+  name: 'Elf Wand',
   type: 'weapon',
   range: 'melee',
   damage: 2,
