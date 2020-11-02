@@ -80,18 +80,53 @@ export function getTileSprite(type, variation) {
     case 16:
       return 'snowglobe1';
     case 17:
-      return 'cemetery';
+      return 'tower';
     case 18:
-      return 'bakery';
+      return 'snowman1';
     case 19:
-      return 'book';
+      return 'lamp2';
     case 21:
       return 'snowcottage';
     case 22:
-      return 'cottage3';
+      return 'xmastree2';
     case 23:
-      return 'cottage4';
-      default:
+      return 'candycottage';
+    case 24:
+      return 'xmastree3';
+    case 25:
+      return 'snowman2';
+    case 26:
+      return 'snowman3';
+    case 27:
+      return 'snowman4';
+    case 28:
+      return 'teddybear';
+    case 29:
+      return 'mailbox';
+    case 30:
+      return 'snowglobe2';
+    case 31:
+      return 'snowglobe3';
+    case 32:
+      return 'snowglobe4';
+    case 33:
+      return 'cottage1';
+    case 34:
+      return 'cottage3';
+    case 35:
+      return 'bunny';
+    case 36:
+      return 'squirrel';
+    case 37:
+      return 'xmastree4';
+    case 38:
+      return 'train1';
+    case 39:
+      return 'train2';
+    case 40:
+      return 'train3';
+                    
+    default:
   }
 }
 

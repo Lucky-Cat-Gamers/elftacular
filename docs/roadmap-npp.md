@@ -185,3 +185,47 @@
 - candy cane - hp 10    value 10
 - gingerbread - hp 20    value 20
 - plum pudding - hp 30  value 40
+
+## LANDSCAPE
+- reindeer - 11
+- bunny - 35
+- squirrel - 36
+- northpolesign - 13
+- sleigh - 14
+- lamp1 - 15
+- lamp2 - 19
+- snowglobe1 - 16
+- snowglobe2 - 30
+- snowglobe3 - 31
+- snowglobe4 - 32
+- snowman1 - 18
+- snowman2 - 25
+- snowman3 - 26
+- snowman4 - 27
+- teddybear = 28
+- mailbox - 29
+- train1 - 38
+- train2 - 39
+- train3 - 40
+- xmastree1 - 12
+- xmastree2 - 22
+- xmastree3 - 24
+- xmastree4 - 37
+- snowcottage - 21
+- candycottage - 23
+- cottage1 - 33
+- cottage3 - 34
+- tower - 17
+- ground(var) - 0
+- stairs-down - 2
+- stairs-up - 3
+- chest - 4
+- chest-open - -2
+- snow(var) - 5
+X- ornate-wall(var) - 6
+X- blue-wall(var) - 7
+X- skull-wall(var) - 8
+X- shop - 9
+X- shrine - 10
+X- blood-splatter - -1
+
