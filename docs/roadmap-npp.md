@@ -150,24 +150,15 @@
 - src/components/button/styles.scss - loot & level continue/close buttons, main screen inventory button
 - - src/components/dialog/styles.scss - background changed to #ffffff
 
-## MONSTERS - ORIGINAL & WITCHFALL
-- spider - hp 12  damage 1   defence 2
-- dragon - hp 60  damage 15  defence 8
-- goblin - hp 12  damage 4   defence 3
-- imp    - hp 40  damage 10  defence 2
-- lich   - hp 100 damage 22  defence 12
-- rat    - hp 8   damage 2   defence 0
-- stone-golem  - hp 30  damage 8   defence 5
-
-## MONSTERS - NPP
+## MONSTERS
 - krampus -     hp 12  damage 1   defence 2
-- dark elf -    hp 60  damage 15  defence 8
-- frost giant - hp 0
-- ice troll -   hp
-- wolf -        hp 
-- goblin -      hp 12  damage 4   defence 3
-- ice spider -  hp
-- blob -        hp
+- dark elf -    hp 75  damage 10  defence 5
+- frost giant - hp 60   damage 12  defense 7
+- ice troll -   hp 45   damage 10   defense 5
+- wolf -        hp 30   damage 6    defense 3
+- goblin -      hp 20  damage 4   defence 3
+- ice spider -  hp 18   damage 2  defense 2
+- blob -        hp 30   damage 2  defense 2
 
 
 ## WEAPONS
@@ -213,7 +204,7 @@
 - snowglobe2 - 35
 - snowglobe3 - 36
 - snowglobe4 - 37
-- train1 - 38
+- train1 - 3 / STAIRS UP
 - train2 - 39
 - train3 - 40
 - bear1b - 41
