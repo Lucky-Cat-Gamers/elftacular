@@ -109,8 +109,8 @@ export function getTileSprite(type, variation) {
       return 'snowman4';
     case 32:
       return 'teddybear';
-    case 33:
-      return 'santa2';
+//    case 33:
+//      return 'santa2';
     case 34:
       return 'snowglobe1';
     case 35:
@@ -179,7 +179,9 @@ export function getTileSprite(type, variation) {
       return 'fence';
     case 67:
       return 'bunny2';
-    
+    case 68:
+      return 'squirrel2';
+      
     default:
   }
 }
