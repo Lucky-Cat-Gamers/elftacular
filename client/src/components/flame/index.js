@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Flames          from './flames.png';
+import Flames          from './flames2.png';
 import { SPRITE_SIZE } from '../../config/constants';
 
 import './styles.scss';
