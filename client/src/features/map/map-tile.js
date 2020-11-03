@@ -68,64 +68,116 @@ export function getTileSprite(type, variation) {
     case 10:
       return 'shrine';
     case 11:
-      return 'reindeer';
+      return 'mailbox';
     case 12:
       return 'xmastree1';
     case 13:
-      return 'northpolesign';
+      return 'xmastree2';
     case 14:
-      return 'sleigh';
+      return 'xmastree3';
     case 15:
-      return 'lamp1';
+      return 'xmastree4';
     case 16:
-      return 'snowglobe1';
+      return 'northpolesign4';
     case 17:
       return 'tower';
     case 18:
-      return 'snowman1';
+      return 'castle';
     case 19:
-      return 'lamp2';
+      return 'igloo';
     case 21:
       return 'snowcottage';
     case 22:
-      return 'xmastree2';
+      return 'cottage3';
     case 23:
       return 'candycottage';
     case 24:
-      return 'xmastree3';
+      return 'cottage7';
     case 25:
-      return 'snowman2';
+      return 'cottage6';
     case 26:
-      return 'snowman3';
-    case 27:
-      return 'snowman4';
-    case 28:
-      return 'teddybear';
-    case 29:
-      return 'mailbox';
-    case 30:
-      return 'snowglobe2';
-    case 31:
-      return 'snowglobe3';
-    case 32:
-      return 'snowglobe4';
-    case 33:
       return 'cottage1';
+    case 27:
+      return 'santa1';
+    case 28:
+      return 'snowman1';
+    case 29:
+      return 'snowman2';
+    case 30:
+      return 'snowman3';
+    case 31:
+      return 'snowman4';
+    case 32:
+      return 'teddybear';
+    case 33:
+      return 'santa2';
     case 34:
-      return 'cottage3';
+      return 'snowglobe1';
     case 35:
-      return 'bunny';
+      return 'snowglobe2';
     case 36:
-      return 'squirrel';
+      return 'snowglobe3';
     case 37:
-      return 'xmastree4';
+      return 'snowglobe4';
     case 38:
       return 'train1';
     case 39:
       return 'train2';
     case 40:
       return 'train3';
-                    
+    case 41:
+      return 'bear1b';
+    case 42:
+      return 'fox3';
+    case 43:
+      return 'fox4';
+    case 44:
+      return 'bunny';
+    case 45:
+      return 'squirrel';
+    case 46:
+      return 'reindeer2';
+    case 47:
+      return 'reindeer3';
+    case 48:
+      return 'reindeer4';
+    case 49:
+      return 'yeti1';
+    case 50:
+      return 'reindeer';
+    case 51:
+      return 'elf1';
+    case 52:
+      return 'elf2';
+    case 53:
+      return 'elf3';
+    case 54:
+      return 'elf5';
+    case 55:
+      return 'elf6';
+    case 56:
+      return 'elf11';
+    case 57:
+      return 'sleigh';
+    case 58:
+      return 'sleigh3';
+    case 59:
+      return 'sleigh5';
+    case 60:
+      return 'lamp1';
+    case 61:
+      return 'lamp6';
+    case 62:
+      return 'lamp7';
+    case 63:
+      return 'lamp8';
+    case 64:
+      return 'lamp9';
+    case 65:
+      return 'lamp10';
+    case 66:
+      return 'fence';
+  
     default:
   }
 }
