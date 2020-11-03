@@ -181,7 +181,7 @@
 - mailbox - 11
 - xmastree1 - 12
 - xmastree2 - 13
-- xmastree3 - 14
+- xmastree3 - 14      1
 - xmastree4 - 15
 - northpolesign4 - 16
 - tower - 17
@@ -204,9 +204,9 @@
 - snowglobe2 - 35
 - snowglobe3 - 36
 - snowglobe4 - 37
-- train1 - 3 / STAIRS UP
+- train1 - 38 / 3-STAIRS UP
 - train2 - 39
-- train3 - 40
+- train3 - 40 / 2-STAIRS DOWN
 - bear1b - 41
 - fox3 - 42
 - fox4 - 43
@@ -217,6 +217,8 @@
 - reindeer4 - 48
 - yeti1 - 49
 - reindeer - 50
+- bunny2 - 67
+- squirrel2 - 68
 - elf1 - 51
 - elf2 - 52
 - elf3 - 53
