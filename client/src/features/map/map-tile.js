@@ -177,7 +177,9 @@ export function getTileSprite(type, variation) {
       return 'lamp10';
     case 66:
       return 'fence';
-  
+    case 67:
+      return 'bunny2';
+    
     default:
   }
 }

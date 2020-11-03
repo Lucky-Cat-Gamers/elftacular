@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { connect }                    from 'react-redux';
 import Sound                          from 'react-sound';
 
-import AmbientMusic     from './lindsey_stirling-intothewoods.mp3';
+import AmbientMusic     from './danceofthesugarplumfairy.mp3';
 import setGameSound     from '../actions/set-game-sound';
 import gameSoundEnabled from '../actions/game-sound-enabled';
 

@@ -6,7 +6,7 @@ const Blob = {
   maxHp: 30,
   damage: 2,
   defence: 2,
-  exp: 200,
+  exp: 15,
   type: 'blob',
   sprite: blobSprite
 };
