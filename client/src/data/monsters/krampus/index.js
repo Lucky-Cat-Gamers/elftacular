@@ -1,10 +1,10 @@
 import krampusSprite from './krampus.png';
 
 const Krampus = {
-  hp: 40,
-  maxHp: 40,
-  damage: 10,
-  defence: 2,
+  hp: 100,
+  maxHp: 100,
+  damage: 16,
+  defence: 10,
   exp: 150,
   type: 'krampus',
   sprite: krampusSprite

@@ -6,7 +6,7 @@ const Spider = {
   maxHp: 30,
   damage: 2,
   defence: 2,
-  exp: 400,
+  exp: 100,
   type: 'spider',
   sprite: spiderSprite
 };

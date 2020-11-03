@@ -5,7 +5,7 @@ const Goblin = {
   maxHp: 12,
   damage: 4,
   defence: 3,
-  exp: 25,
+  exp: 100,
   type: 'goblin',
   sprite: GoblinSprite
 };
