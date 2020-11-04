@@ -51,7 +51,7 @@ Based on the Open-Source framework of [React RPG](https://react-rpg.com/) by [An
 ### <span style="color:#f21313">Game Controls:</span>
 ![North Pole Patrol Gameplay](docs/assets/npp3.png) 
 
-### <span style="color:#f21313">Game Play</span> - The messaging is friendly, but also important. It tells you how to get head in the game.
+### <span style="color:#f21313">Game Play</span> - The messaging is friendly, but also important. It tells you how to get ahead in the game.
 ![Map 1 Message](docs/assets/npp4.png) &nbsp; ![Present Message](docs/assets/npp5.png)
 <br />
 
