@@ -1,4 +1,4 @@
-<body style="background-color:snow">
+<html><body style="background-color:snow">
 
 ![North Pole Patrol Logo](docs/assets/npp-logo.png)
 
@@ -31,7 +31,9 @@ Based on the Open-Source framework of [React RPG](https://react-rpg.com/) by [An
 -  MVC Folder Structure  ![](docs/assets/check1.png)
 <br>
 <br />
-## <span style="color:#f21313">How To Play</span> ![WitchFall Intro](docs/assets/northpolesign4.png)
+## <span style="color:#f21313">How To Play</span> 
+
+![WitchFall Intro](docs/assets/northpolesign4.png)
 <span style="font-size:16px">
 <span style="color:#3c8d0d">Merryweather starts off with a elf wand that can blast the ice spiders (and goblins, blobs, wolves) with a wintery blast. The space-bar or enter-key will let you attack the creatures once they are right in front of you.</span><br />
 
@@ -58,8 +60,8 @@ Based on the Open-Source framework of [React RPG](https://react-rpg.com/) by [An
 
 ![Inventory Screenshot](docs/assets/npp8.png)
 
-
 ## <span style="color:#f21313">How To Play Locally</span> ![Animated Christmas Tree](docs/assets/treelights.gif)
+
 Clone and fork the repo to your system.
 
 CD into the main game folder & install all the NPM:
@@ -99,4 +101,4 @@ npm run start
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ![Settings 1](docs/assets/backdrop.png)
-</body>
+</body></html>
