@@ -21,32 +21,32 @@ const tiles = [
 // chests: 19 | spiders: 11 | goblins: 4
 const monsters = [
   {
-    type: 'spider',
-    position: [1, 10]
+    type: 'wolf',
+    position: [21, 2]
   },
   {
-    type: 'spider',
-    position: [3, 14]
+    type: 'wolf',
+    position: [22, 14]
   },
   {
-    type: 'spider',
-    position: [3, 7]
+    type: 'wolf',
+    position: [12, 7]
   },
   {
-    type: 'spider',
-    position: [4, 10]
+    type: 'icetroll',
+    position: [13, 11]
   },
   {
-    type: 'spider',
-    position: [5, 2]
+    type: 'icetroll',
+    position: [6, 13]
   },
   {
-    type: 'spider',
-    position: [6, 8]
+    type: 'frostgiant',
+    position: [2, 9]
   },
   {
-    type: 'spider',
-    position: [7, 5]
+    type: 'frostgiant',
+    position: [2, 2]
   }
 ];
 

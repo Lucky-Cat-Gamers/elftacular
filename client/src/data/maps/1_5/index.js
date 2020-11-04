@@ -19,16 +19,6 @@ const tiles = [
 
 const monsters = [
   {
-    type: 'stone-golem',
-    position: [1, 9]
-  },
-  {
-    type: 'stone-golem',
-    position: [10, 9]
-  },
-  {
-    type: 'stone-golem',
-    position: [18, 9]
   }
 ];
 

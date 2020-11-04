@@ -1,13 +1,13 @@
 import _cloneDeep from 'lodash.clonedeep';
 
 const initialState = {
-  hp: 30,
-  maxHp: 30,
+  hp: 60,
+  maxHp: 60,
   damage: 3,
   defence: 3,
   level: 1,
   exp: 0,
-  expToLevel: 20,
+  expToLevel: 70,
   gold: 0,
   equippedItems: {},
   levelUp: { level: 0, hp: 0, dmg: 0 }
@@ -85,7 +85,6 @@ const statsReducer = (state = initialState, { type, payload }) => {
             }
           });
           delete newState.equippedItems.ring;
-
           break;
 
         default:
