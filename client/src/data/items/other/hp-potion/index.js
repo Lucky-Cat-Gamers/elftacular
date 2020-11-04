@@ -3,7 +3,7 @@ import HpPotionImg from './plumpudding.png';
 const HpPotion = {
   name: 'Plum Pudding (heals)',
   type: 'potion',
-  hp: 30,
+  hp: 50,
   image: HpPotionImg,
   value: 40
 };

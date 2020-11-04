@@ -124,7 +124,7 @@ class Player extends Component {
             url={PlayerStep}
             playStatus={'PLAYING'}
             autoLoad={true}
-            volume={40} />
+            volume={30} />
         );
       }
       this.setState({
@@ -144,7 +144,7 @@ class Player extends Component {
             url={PlayerDeath}
             playStatus={'PLAYING'}
             autoLoad={true}
-            volume={60} />
+            volume={50} />
         );
       }
       // player the player death sound after
@@ -161,7 +161,7 @@ class Player extends Component {
             url={MonsterDeath}
             playStatus={'PLAYING'}
             autoLoad={true}
-            volume={60} />
+            volume={20} />
         );
       }
       // play the monster death sound after delay
@@ -178,7 +178,7 @@ class Player extends Component {
             url={MonsterAttack}
             playStatus={'PLAYING'}
             autoLoad={true}
-            volume={50} />
+            volume={30} />
         );
       }
       // animate the player
@@ -212,7 +212,7 @@ class Player extends Component {
             url={SwordSwish}
             playStatus={'PLAYING'}
             autoLoad={true}
-            volume={60} />
+            volume={40} />
         );
       }
       // animate the sword slash

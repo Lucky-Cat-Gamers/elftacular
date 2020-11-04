@@ -193,13 +193,13 @@
 - cottage7 - 24
 - cottage6 - 25
 - cottage1 - 26
-- santa1 - 27
+- santa1 - 10
 - snowman1 - 28
 - snowman2 - 29
 - snowman3 - 30
 - snowman4 - 31
 - teddybear - 32
-- santa2 - 33
+-  33
 - snowglobe1 - 34
 - snowglobe2 - 35
 - snowglobe3 - 36
@@ -245,6 +245,5 @@ X- ornate-wall(var) - 6
 X- blue-wall(var) - 7
 X- skull-wall(var) - 8
 X- shop - 9
-X- shrine - 10
 X- blood-splatter - -1
 

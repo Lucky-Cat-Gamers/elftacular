@@ -65,6 +65,7 @@ export const randomItemsT1 = [
   ...randomItemsT1,
   snowballGun,
   santaHat,
+  GreatHpPotion
 //  DiamondRing
  ];
 

@@ -57,8 +57,8 @@ const stairs = {
 };
 
 const message = {
-  title: '(Level 1 under construction, updates daily!)',
-  body: "Let's start outside Santa's workshop. Make sure you equip any gear you find in the presents. Get to level 2 through the train engine!"
+  title: 'Level 1',
+  body: "Let's start outside Santa's workshop. Make sure you equip any gear you find in the presents. Get to Level 2 on the train engine!"
 };
 
 export default {
