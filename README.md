@@ -1,24 +1,23 @@
-<body style="background-color:black">
+![North Pole Patrol Logo](docs/assets/npp-logo.png)
 
-![WitchFall Logo](docs/assets/witchfall-a.png)
-
-# <span style="color:orange">WITCHFALL RPG - A STUDENT FINAL PROJECT</span>
+# <span style="color:#3c8d0d;font-weight:bold">WITCHFALL RPG - A STUDENT FINAL PROJECT</span>
 
 
- ![Halloween Kitties](docs/assets/cat4.png)
+ ![Santa and Rudolph](docs/assets/santaandreindeer.png)
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-green.svg?style=flat-square)](#contributors)
 
-<span style="color:orange">JUST IN TIME FOR HALLOWEEN!</span> ![Halloween Kitties](docs/assets/evilpumpkin__by_clairebearer.gif)<br>
-WitchFall lets you follow the adventures of Addie, the Friendly Witch.  In this Beta version, explore the town of Pumpkin Falls, where it is always October and the air smells like pumpkin spice!  This is a Halloween-themed, friendly game that our team plans to continue developing as part of our portfolio.
+## <span style="color:#3c8d0d">Christmas is Coming!</span> ![Mrs. Claus](docs/assets/mrsclaus.gif)<br>
+In North Pole Patrol, Krampus and the dark elves have kidnapped Santa on Christmas Eve!  Can you help Merryweather, one of Santa's elves, save Santa?  This is a Christmas remake of the game Witchfall (Halloween themed) that we did for the final project of our UCLA Web Development Bootcamp.
 
-Based on the Open-Source framework of [React RPG](https://react-rpg.com/) by [Andrew Steinheiser](https://github.com/ASteinheiser/react-rpg.com), WitchFall is a"Work-In-Progress" RPG made with React and Redux.  The game is a turn-based, dungeon crawler that is slowly being changed to a quest system. Currently you can walk through the village in level 1, battling spiders and checking out the adorable environment.
+Based on the Open-Source framework of [React RPG](https://react-rpg.com/) by [Andrew Steinheiser](https://github.com/ASteinheiser/react-rpg.com), North Pole Patrol is a "Work-In-Progress" RPG made with React and Redux.  The game is a turn-based, dungeon crawler that is slowly being changed to a quest system. Currently you can explore 3 maps, battling spiders, frost giants, dark elves and even Krampus, all to rescue Santa and save Christmas!
 
+![String of Christmas Lights](docs/assets/lights.png)
 
+## [<span style="color:#3c8d0d;text-decoration:underline">Play North Pole Patrol Here!</span>](https://northpolepatrol.herokuapp.com/)   ![Santa's Sleigh](docs/assets/santa.gif)
+<br />
 
-[Play WitchFall Here!](https://witchfall.herokuapp.com/)   ![Halloween Kitties](docs/assets/darkmoon3636.gif)
-
-## Requirements
+## <span style="color:#f21313">Requirements</span>
 -  ReactJS  ![](docs/assets/check1.png)
 -  Node & Express  ![](docs/assets/check1.png)
 -  MongoDB  ![](docs/assets/check1.png)
@@ -28,33 +27,37 @@ Based on the Open-Source framework of [React RPG](https://react-rpg.com/) by [An
     * Redux, Lodash, Sass & more!
 -  User Authentication - Firebase Auth  ![](docs/assets/check1.png)
 -  MVC Folder Structure  ![](docs/assets/check1.png)
+<br>
+<br />
+## <span style="color:#f21313">How To Play</span> ![WitchFall Intro](docs/assets/northpolesign4.png)
+<span style="font-size:16px">
+<span style="color:#3c8d0d">Merryweather starts off with a elf wand that can blast the ice spiders (and goblins, blobs, wolves) with a wintery blast. The space-bar or enter-key will let you attack the creatures once they are right in front of you.</span><br />
 
+<span style="color:#3c8d0d">Wrapped presents have experience and candy, but more importantly you can get better gear (like a snowball gun!) and edible goodies (candy canes, gingerbread cookies, plum puddings and hot chocolate can all help restore your health!)! Walk onto the present to open it.</span>
 
-## How To Play
-<span style="color:lawngreen">Addie starts off with a staff that she can use to get rid of the pesky spiders. The space-bar or enter-key will cast a spell at the spiders.</span>
-
-<span style="color:lawngreen">Tree stumps can hold gold, experience and even special items! Walk into the stump to trigger this. The look of the tree stump will change after you've emptied it.
+<span style="color:#3c8d0d">There are a set number of presents and monsters in the game. You must vanquish ALL the monsters to rescue Santa! You can get to the next map by stepping onto the train engine, and you can go back to the previous map by stepping onto the caboose.
 </span>
-
-<span style="color:lawngreen">In the settings folder, <ins>IF</ins> you have logged in with Google, you can 'Save Score' to add your name and level to the Leaderboard.
 </span>
+<br /> <br />
 
-![WitchFall Intro](docs/assets/crouching_kitty.gif)
+![Pile of Presents](docs/assets/gifts.png)
+### <span style="color:#f21313">Opening screens:</span>
+![North Pole Patrol Intro](docs/assets/npp1.png) &nbsp; ![North Pole Patrol Game Screen 1](docs/assets/npp2.png)
 
-### Opening screens:
-![WitchFall Intro](docs/assets/witchfall1.png) &nbsp; ![WitchFall Game Screen 1](docs/assets/witchfall2.png)
+### <span style="color:#f21313">Game Controls:</span>
+![North Pole Patrol Gameplay](docs/assets/npp3.png) 
 
-### Game Controls:
-![WitchFall Gameplay](docs/assets/witchfall3.png) 
+### <span style="color:#f21313">Game Play</span> - The messaging is friendly, but also important. It tells you how to get head in the game.
+![Map 1 Message](docs/assets/npp4.png) &nbsp; ![Present Message](docs/assets/npp5.png)
+<br />
 
-### Game Play - You can see that one stump has been emptied, the other still has loot. Also, as we build out the game, you will be able to walk into the buildings to explore other levels:
-![Tree Stumps are Treasure Chests](docs/assets/witchfall7.png) &nbsp; ![Whack Spiders With Your Staff!](docs/assets/witchfall8.png)
+![Game Screenshot](docs/assets/npp6.png) &nbsp; ![Map 2 Message](docs/assets/npp7.png)
+<br />
 
-### In the settings screen, you can turn the music on and off, and you can restart the game. You can also save your level to see if you made it onto the Leaderboard (must log into Google first):
-![Settings 1](docs/assets/witchfall11.png)
+![Inventory Screenshot](docs/assets/npp8.png)
 
 
-## How To Play Locally
+## <span style="color:#f21313">How To Play Locally</span> ![Animated Christmas Tree](docs/assets/treelights.gif)
 Clone and fork the repo to your system.
 
 CD into the main game folder & install all the NPM:
@@ -75,10 +78,10 @@ npm run start
 ### Read more about React RPG
 - [Medium: Making an RPG with React + Redux - written by the maker of the original game code!](https://medium.com/@andrewsteinheiser/making-an-rpg-with-react-redux-dcfffdb06797)
 
-## [View Roadmap](docs/ROADMAP.md) (IN PROGRESS)
+## [<span style="color:#f21313">View Roadmap</span>](docs/roadmap-npp.md) (IN PROGRESS)
 
 
-## Contributors
+## <span style="color:#3c8d0d">Contributors</span>
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
 <table><tr>
@@ -92,4 +95,5 @@ npm run start
 </tr></table>
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-</body>
+
+![Settings 1](docs/assets/backdrop.png)

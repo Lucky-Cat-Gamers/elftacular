@@ -6,12 +6,8 @@
 - Change main page background (need to vote)
 - Deployed to heroku w auto-updates
 - Replaced all witch armor items with elf clothes
-- 
-
-## What needs to be done
 - New logo
 - Change player sprite
-  - Mark drawing custom one
 - Rewrite all game play menus & messaging
 - Replace outside textures
 - Adjust Item Detail Screen Contents
@@ -19,16 +15,16 @@
 - Make healing potions findable & useable
 - Change Maps 1-3, will it go to 5?
 - Create new monsters to fight
-- Change ReadMe to NPP
 - Change all border colors
 - Change stats bar colors
 - New game music
-- Fix game music?
-- Figure out how to make new portals w different tiles
 - change body silhouette for armor equip
+- 
 
-## Current To-Do List
-- Level 1 Textures
+## What needs to be done
+- Change ReadMe to NPP
+- Figure out how to make new portals w different tiles
+
 
 ## FILE DIRECTORY
 ### MAPS
@@ -126,19 +122,6 @@
 - <span style="color:orange"><b>src/features/map/index.js</b></span> - wallType = getWallType(map.tiles); MapPadding uses wallType - sets all wall obstacles
 - <span style="color:orange">src/_tests_/utils/get-surrounding-tiles.js</span>
 - <span style="color:orange"><b>src/utils/attach-meta-to-tiles.js</b></span> - sets # of tiles (variation) in a set for ground and walls
-
-## CHANGES/TESTING
-- src/config/constant.js - map-padding-distance changed from 5 to 3 - changed back, broke map
-- src/index.scss - changed background color to white, changed background image, changed white border to #405685, button outline color to #aliceblue
-- public/assets/style.css - changed footer background color to #ffffff
-- src/components/viewport/viewport.scss - changed border to #b3000c
-
-
-## EVERYTHING WITH A WHITE BORDER
-- src/index.scss - has .white-border in css
-- src/components/backpack-items/index.js 
-- src/components/button/styles.scss - changed to red #b3000c
-
 
 ## MENU & DIALOG BOX CHANGES
 - "Are you sure you want to quit" box - src/components/confirm-dialog/styles.scss - changed background to white & text to #f21313, box-shadow to #2953a5
@@ -241,9 +224,9 @@
 - chest - 4
 - chest-open - -2
 - snow(var) - 5
-X- ornate-wall(var) - 6
-X- blue-wall(var) - 7
-X- skull-wall(var) - 8
-X- shop - 9
-X- blood-splatter - -1
+- ornate-wall(var) - 6
+- blue-wall(var) - 7
+- skull-wall(var) - 8
+- shop - 9
+- blood-splatter - -1
 
