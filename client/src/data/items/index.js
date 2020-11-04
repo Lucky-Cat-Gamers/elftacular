@@ -58,7 +58,10 @@ export const randomItemsT1 = [
   witchBoots,
   witchCape,
   witchGloves,
-  witchHat
+  witchHat,
+  candyCane,
+  candyCane,
+  candyCane
 ];
 
  export const randomItemsT2 = [

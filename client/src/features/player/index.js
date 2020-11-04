@@ -12,9 +12,6 @@ import PlayerStep    from './assets/player-step.wav';
 import SwordSwish    from './assets/player-sword-swish.wav';
 import WalkSprite    from './assets/player_walk.png';
 import { ANIMATION_SPEED, SPRITE_SIZE } from '../../config/constants';
-// import SkunkSpray    from './assets/skunk-spray.png';
-// import staff         from '../../data/items/weapons/staff';
-// import skunk         from '../../data/items/weapons/skunk';
 
 
 import './styles.scss';
@@ -124,7 +121,7 @@ class Player extends Component {
             url={PlayerStep}
             playStatus={'PLAYING'}
             autoLoad={true}
-            volume={30} />
+            volume={25} />
         );
       }
       this.setState({
@@ -144,7 +141,7 @@ class Player extends Component {
             url={PlayerDeath}
             playStatus={'PLAYING'}
             autoLoad={true}
-            volume={50} />
+            volume={30} />
         );
       }
       // player the player death sound after
@@ -161,7 +158,7 @@ class Player extends Component {
             url={MonsterDeath}
             playStatus={'PLAYING'}
             autoLoad={true}
-            volume={20} />
+            volume={10} />
         );
       }
       // play the monster death sound after delay
@@ -178,7 +175,7 @@ class Player extends Component {
             url={MonsterAttack}
             playStatus={'PLAYING'}
             autoLoad={true}
-            volume={30} />
+            volume={20} />
         );
       }
       // animate the player
@@ -212,7 +209,7 @@ class Player extends Component {
             url={SwordSwish}
             playStatus={'PLAYING'}
             autoLoad={true}
-            volume={40} />
+            volume={30} />
         );
       }
       // animate the sword slash

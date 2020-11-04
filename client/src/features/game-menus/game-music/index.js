@@ -35,7 +35,7 @@ const GameMusic = ({ sideMenu, gameSoundEnabled, setGameSound }) => {
           playStatus={'PLAYING'}
           autoLoad={true}
           loop={true}
-          volume={40} />
+          volume={30} />
       );
     }
     // now we no longer need our key or mouse event listeners
@@ -76,7 +76,7 @@ const GameMusic = ({ sideMenu, gameSoundEnabled, setGameSound }) => {
         playStatus={'PLAYING'}
         autoLoad={true}
         loop={true}
-        volume={40} />
+        volume={30} />
     );
     setGameSound(true);
   }
