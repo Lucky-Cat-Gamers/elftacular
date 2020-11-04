@@ -1,3 +1,4 @@
+<body style="background-color:snow">
 ![North Pole Patrol Logo](docs/assets/npp-logo.png)
 
 # <span style="color:#3c8d0d;font-weight:bold">WITCHFALL RPG - A STUDENT FINAL PROJECT</span>
@@ -97,3 +98,4 @@ npm run start
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ![Settings 1](docs/assets/backdrop.png)
+</body>
