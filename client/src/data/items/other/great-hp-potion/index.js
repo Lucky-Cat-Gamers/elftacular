@@ -1,9 +1,9 @@
 import GreatHpPotionImg from './great-hp-potion.png';
 
 const GreatHpPotion = {
-  name: 'Great HP Potion',
+  name: 'Hot Chocolate (heals)',
   type: 'potion',
-  hp: 60,
+  hp: 70,
   image: GreatHpPotionImg,
   value: 80
 };

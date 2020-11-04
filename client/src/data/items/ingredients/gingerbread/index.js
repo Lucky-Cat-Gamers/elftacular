@@ -3,7 +3,7 @@
 const gingerBread = {
   name: 'Gingerbread (heals)',
   type: 'potion',
-  hp: 20,
+  hp: 30,
   image: gingerbreadImg,
   value: 20
 };

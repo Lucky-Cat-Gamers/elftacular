@@ -39,11 +39,7 @@ const GameMenus = ({ appState, dialog }) => {
           sideMenu={sideMenu}
           disabled={disableInventory} />
 
-        <Snackbar
-          largeView={largeView}
-          sideMenu={sideMenu} />
-
-        <div className='flex-column2'>
+       <div className='flex-column2'>
           <GameMusic sideMenu={sideMenu} /> &nbsp;
           <GameSettings /> &nbsp;
           <LeaderBoard />
