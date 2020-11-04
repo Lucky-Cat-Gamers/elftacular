@@ -5,7 +5,7 @@ const gingerBread = {
   type: 'potion',
   hp: 30,
   image: gingerbreadImg,
-  value: 20
+  value: 30
 };
 
 export default gingerBread;

@@ -1,9 +1,9 @@
 
 const phrases = [
-  'You are a weak mortal...',
-  'Not that strong after all...',
-  'Now who will save the princess?',
-  'Muhahaha... Bwahahaha!!'
+  "Oh no! Well, luckily Santa's elves have unlimited lives. Let's try again!",
+  "You got so close, let's try again!",
+  "Keep going, we need to rescue Santa!",
+  "Ouch, that looks like it hurt. I am sure you will get it next time!"
 ];
 
 export default function randomPhrase() {
