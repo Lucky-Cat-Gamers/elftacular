@@ -165,14 +165,14 @@ export function getTileSprite(type, variation) {
       return 'sleigh5';
     case 60:
       return 'lamp1';
-    case 61:
-      return 'lamp6';
-    case 62:
-      return 'lamp7';
-    case 63:
-      return 'lamp8';
-    case 64:
-      return 'lamp9';
+//    case 61:
+//      return 'lamp6';
+//    case 62:
+//      return 'lamp7';
+//    case 63:
+//      return 'lamp8';
+//    case 64:
+//      return 'lamp9';
     case 65:
       return 'lamp10';
     case 66:
