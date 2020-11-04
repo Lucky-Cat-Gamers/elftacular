@@ -28,14 +28,14 @@ export const MAX_LENGTH = 5;
 export const START_MAP = '1_1';
 
 // set the duration for showing the snackbar (ms)
-export const SNACK_DURATION = 2500;
+export const SNACK_DURATION = 2000;
 
 // set the size for the game viewport (in pixels)
 export const GAME_VIEWPORT_SIZE = 350;
 export const GAME_VIEWPORT_SIZE_LG = 400;
 
 // set the minimum level for tier 2 items
-export const TIER_2 = 100;
+export const TIER_2 = 12;
 
 // set the pixel values for the different screen sizes
 export const SCREEN_SMALL_WIDTH = 410;

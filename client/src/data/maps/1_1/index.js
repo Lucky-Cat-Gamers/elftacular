@@ -49,10 +49,6 @@ const monsters = [
   {
     type: 'blob',
     position: [2, 9]
-  },
-  {
-    type: 'blob',
-    position: [6, 13]
   }
 ];
 

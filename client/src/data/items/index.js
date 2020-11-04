@@ -1,7 +1,7 @@
 import satchelUpgrade   from './other/satchel-upgrade';
-import DiamondRing      from './rings/diamond-ring';
-import AmethystRing     from './rings/amethyst-ring';
-import OldRing          from './rings/old-ring';
+//import DiamondRing      from './rings/diamond-ring';
+//import AmethystRing     from './rings/amethyst-ring';
+//import OldRing          from './rings/old-ring';
 import HpPotion         from './other/hp-potion';
 import GreatHpPotion    from './other/great-hp-potion';
 import witchGloves      from './armor/witch-gloves';
@@ -12,7 +12,7 @@ import witchCape        from './armor/witch-cape';
 import staff            from './weapons/staff';
 import snowballGun      from './weapons/snowballgun';
 import bell             from './ingredients/bell';
-import bow              from './ingredients/bow';
+// import bow              from './ingredients/bow';
 import candle           from './ingredients/candle';
 import candyCane        from './ingredients/candycane';
 import gingerBread      from './ingredients/gingerbread';
@@ -32,34 +32,29 @@ const items = {
     santaHat
   },
   rings: {
-    AmethystRing,
-    DiamondRing,
-    OldRing
+//    AmethystRing,
+//    DiamondRing,
+//    OldRing
   },
   other: {
     candyCane,
     HpPotion,
     gingerBread,
     GreatHpPotion,
-    satchelUpgrade
-  },
-ingredients: {
+    satchelUpgrade,
     bell,
     button,
-    bow,
     candle
   }
 };
 
 export const randomItemsT1 = [
   bell,
-  bow,
   button,
   candle,
   candyCane,
   gingerBread,
   HpPotion,
-  snowballGun,
   witchBoots,
   witchCape,
   witchGloves,
@@ -68,8 +63,9 @@ export const randomItemsT1 = [
 
  export const randomItemsT2 = [
   ...randomItemsT1,
-  AmethystRing,
-  DiamondRing
+  snowballGun,
+  santaHat,
+//  DiamondRing
  ];
 
 export default items;

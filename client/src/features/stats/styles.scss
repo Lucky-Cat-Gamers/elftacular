@@ -1,6 +1,5 @@
 .stats__container {
   justify-content: center;
-
   transition: background .5s ease-in-out;
 
   cursor: default;
@@ -13,23 +12,27 @@
 
 .stats__text--spacing {
   padding-right: 15px;
-  color:          lawngreen;
+  color:          #f21313;
 }
 
 .stats__text--level {
-  color: var(--blue);
+  color: #165b33;
+  font-weight: bold;
 }
 
 .stats__text--gold {
   color: deeppink;
+  font-weight: bold;
 }
 
 .stats__text--damage {
-  color: var(--light-red);
+  color: #165b33;
+  font-weight: bold;
 }
 
 .stats__text--defence {
-  color: var(--purple);
+  color: #165b33;
+  font-weight: bold;
 }
 
 .stats-column__spacing {

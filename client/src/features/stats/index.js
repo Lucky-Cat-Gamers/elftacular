@@ -11,7 +11,7 @@ class Stats extends Component {
     super(props);
 
     this.state = {
-      statsBgColor: 'var(--dark-gray)'
+      statsBgColor: 'whitesmoke'
     };
 
     this.stopAnimation = this.stopAnimation.bind(this);
@@ -22,14 +22,14 @@ class Stats extends Component {
     if(JSON.stringify(prevProps.stats) !== JSON.stringify(this.props.stats)
       && !this.props.disabled) {
       // animate the container
-      this.setState({ statsBgColor: 'var(--gray)' });
+      this.setState({ statsBgColor: 'lightgray' });
       // pause the infinite animation after 1 iteration
       this.props.setTimeout(this.stopAnimation, ANIMATION_SPEED);
     }
   }
 
   stopAnimation() {
-    this.setState({ statsBgColor: 'var(--dark-gray)' });
+    this.setState({ statsBgColor: 'whitesmoke' });
   }
 
   render() {

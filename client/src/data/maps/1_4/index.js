@@ -22,64 +22,6 @@ const tiles = [
 
 const monsters = [
   {
-    type: 'goblin',
-    position: [1, 10]
-  },
-  {
-    type: 'goblin',
-    position: [3, 14]
-  },
-  {
-    type: 'goblin',
-    position: [3, 7]
-  },
-  {
-    type: 'goblin',
-    position: [4, 10]
-  },
-  {
-    type: 'goblin',
-    position: [5, 2]
-  },
-  {
-    type: 'goblin',
-    position: [6, 8]
-  },
-  {
-    type: 'goblin',
-    position: [7, 5]
-  },
-  {
-    type: 'stone-golem',
-    position: [23, 3]
-  },
-  {
-    type: 'goblin',
-    position: [8, 15]
-  },
-  {
-    type: 'goblin',
-    position: [12, 4]
-  },
-  {
-    type: 'stone-golem',
-    position: [26, 14]
-  },
-  {
-    type: 'goblin',
-    position: [13, 8]
-  },
-  {
-    type: 'goblin',
-    position: [18, 7]
-  },
-  {
-    type: 'stone-golem',
-    position: [25, 12]
-  },
-  {
-    type: 'stone-golem',
-    position: [25, 6]
   }
 ];
 

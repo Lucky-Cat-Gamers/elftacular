@@ -5,16 +5,16 @@ export default function openChest() {
 
     const { stats } = getState();
     const { level, expToLevel } = stats;
-    // give the player a 25% chance to get a random item
+    // give the player a 65% chance to get a random item
     let itemDrop = false;
     const chance = Math.floor(Math.random() * 100) + 1;
     if(chance <= 65) {
       itemDrop = randomItem(level);
     }
-    // get a random amount of gold between 1 and 8 PLUS player level x3
-    const gold = (Math.floor(Math.random() * 8) + 1) + (level * 4);
+    // get a random amount of gold between 1 and 8 PLUS player level x2
+    const gold = (Math.floor(Math.random() * 8) + 1) + (level * 2);
     // get some level based exp
-    const exp = (level * 5) + 5;
+    const exp = (level * 2) + 5;
 
     console.log("exp:", exp, "Experience to Level:", expToLevel, "stats:", stats);
 

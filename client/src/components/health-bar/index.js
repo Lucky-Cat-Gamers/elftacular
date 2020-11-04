@@ -11,7 +11,7 @@ const HealthBar = ({ value, max }) => {
       <span className='health-bar__container'
         style={{
           width: fullHp ? 0 : 38,
-          border: fullHp ? 'none' : '1px solid var(--green)'
+          border: fullHp ? 'none' : '1px solid #3c8d0d'
         }}>
 
         <span className='health-bar__value'

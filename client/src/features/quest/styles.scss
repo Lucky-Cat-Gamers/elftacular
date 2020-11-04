@@ -1,6 +1,6 @@
 .stats__container {
   justify-content: center;
-
+  background-color: snow;
   transition: background .5s ease-in-out;
 
   cursor: default;
@@ -13,7 +13,8 @@
 
 .stats__text--spacing {
   padding-right: 15px;
-  color:          lawngreen;
+  color:          #f21313;
+  font-weight: bold;
 }
 
 .stats__text--level {
@@ -25,7 +26,7 @@
 }
 
 .stats__text--damage {
-  color: var(--light-red);
+  color: #f21313;
 }
 
 .stats__text--defence {
@@ -43,23 +44,16 @@
 .exp-bar__container {
   width: 110px;
   height: 20px;
-
   background: var(--gray);
-
   position: relative;
-
-  border: 1px solid var(--blue);
+  border: 1px solid #f21313;
   border-radius: 7px;
 
   .exp-bar__value {
     height: 20px;
-
-    background: var(--blue);
-
+    background: #f21313;
     border-radius: 5px 0px 0px 4px;
-
     position: absolute;
-
     transition: width 1s ease-in-out;
   }
 }
@@ -67,21 +61,15 @@
 .stats-hp-bar__container {
   width: 115px;
   height: 20px;
-
-  background: var(--red);
-
+  background: snow;
   position: relative;
-
   border: 1px solid var(--green);
   border-radius: 7px;
 
   .stats-hp-bar__value {
     height: 20px;
-
-    background: var(--green);
-
+/*    background: aliceblue; */
     position: absolute;
-
     transition: width 1s ease-in-out;
   }
 }
@@ -90,12 +78,9 @@
   height: 20px;
   font-size: 22px;
   color: var(--dark-gray);
-
   font-weight: 500;
-
   justify-content: center;
   align-items: center;
-
   position: absolute;
   z-index: 1000;
   left: 0;

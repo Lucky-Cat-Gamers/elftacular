@@ -18,7 +18,7 @@ class Stats extends Component {
   }
 
   componentDidUpdate(prevProps, prevState) {
-    // detemine when the stats have been updated and are not disabled
+    // determine when the stats have been updated and are not disabled
     if(JSON.stringify(prevProps.stats) !== JSON.stringify(this.props.stats)
       && !this.props.disabled) {
       // animate the container

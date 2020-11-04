@@ -52,34 +52,6 @@ const monsters = [
   {
     type: 'goblin',
     position: [23, 3]
-  },
-  {
-    type: 'spider',
-    position: [8, 15]
-  },
-  {
-    type: 'goblin',
-    position: [12, 4]
-  },
-  {
-    type: 'spider',
-    position: [26, 14]
-  },
-  {
-    type: 'goblin',
-    position: [13, 8]
-  },
-  {
-    type: 'spider',
-    position: [18, 7]
-  },
-  {
-    type: 'goblin',
-    position: [25, 12]
-  },
-  {
-    type: 'goblin',
-    position: [25, 6]
   }
 ];
 
