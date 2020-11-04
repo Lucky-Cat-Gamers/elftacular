@@ -7,7 +7,7 @@ const initialState = {
   defence: 3,
   level: 1,
   exp: 0,
-  expToLevel: 70,
+  expToLevel: 100,
   gold: 0,
   equippedItems: {},
   levelUp: { level: 0, hp: 0, dmg: 0 }

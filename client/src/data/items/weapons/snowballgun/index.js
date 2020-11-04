@@ -4,7 +4,7 @@ const snowballGun = {
   name: 'Arctic Blast Snowball Gun',
   type: 'weapon',
   range: 'melee',
-  damage: 10,
+  damage: 12,
   image: snowballgunImg,
   value: 800
 };

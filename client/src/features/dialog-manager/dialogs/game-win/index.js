@@ -27,24 +27,24 @@ const GameWin = ({ monsters, resetGameState, closeDialog }) => {
         monstersRemain ?
           <>
             <span className='flex-row game-win__title'>
-              {'You Are Weak...'}
+              {'Oh no, you missed one!'}
             </span>
 
             <span className='flex-column game-win__text'>
-              {'The shrine can only recognize you once every monster in the dungeon has been defeated...'}
+              {'You can only rescue Santa after you have wiped out all the bad guys. See if you can find the one that was hiding!'}
             </span>
 
             <div className='flex-row game-win__button'>
               <Button
                 onClick={closeDialog}
                 icon='reply'
-                title={'Return to Dungeon'} />
+                title={'Return to Game'} />
             </div>
           </>
           :
           <>
             <span className='flex-column game-win__text'>
-              {'The old spirit speaks: "Greetings warrior! I cannot thank you enough for freeing me from the evil spirits. Now I may finally rest..."'}
+              {'The ropes holding Santa fall away and he stands up with a spring in his step. "Good job, Merryweather, you have my thanks! Now I must dash, Christmas Eve and all that!"'}
             </span>
 
             <div className='flex-row game-win__button'>
